@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const colorSemaforo = prompt("Ingrese el color en el que está el semáforo");
+
+        const puedeAvanzar = (colorSemaforo) =>{
+            if(colorSemaforo === "verde"){
+                return true;
+            }else if(colorSemaforo === "amarillo" || colorSemaforo === "rojo"){
+                return false;
+            }else{
+                return "error";
+            }
+        }
+
+            if(puedeAvanzar(colorSemaforo) === true){
+                alert("Puede avanzar");
+            }else if(puedeAvanzar(colorSemaforo) === false){
+                alert("No puede avanzar");
+            }else{
+                alert("Error: color de semaforo invalido");
+            }
+
+    </script>
+    
+
+</body>
+</html>

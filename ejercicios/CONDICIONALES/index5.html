@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const temperatura = prompt("Ingrese la temperatura");
+
+        const obtenerSensacion = (temperatura) =>{
+            if(temperatura >= Number(30)){
+                return "mucho calor";
+            }else if(temperatura >= Number(25) && temperatura < Number(30)){
+                    return "calor";
+            }else if(temperatura >= Number(15) && temperatura < Number(25)){
+                        return "lindo";
+            }else if(temperatura < Number(15)){
+                        return "frio";
+                    }else{
+                        if(temperatura < Number(0)){
+                            return "helado";
+                        }else{
+                            return "error";
+                        } 
+                    }    
+    </script>
+</body>
+</html>
