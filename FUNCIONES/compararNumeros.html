@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) Hacer la función "comparar_numeros" en donde le pasarás dos números.
+Si son iguales devolvé 1, si son diferentes -1. -->
+
+    <script>
+
+       let parametro1 = prompt("Ingrese el primer número");
+       let parametro2 = prompt("Ingrese el segundo número");
+
+        function comparar_numeros(num1, num2){
+            if(num1==num2){
+                let iguales = 1;
+                return iguales
+            }else{
+                let diferentes = -1;
+                return diferentes
+            }
+        }
+
+            alert(comparar_numeros(parametro1,parametro2));
+        </script>
+
+        <!-- Esta bien pero se puede simplificar 
+            
+        function comparar_numeros(num1, num2)
+        { 
+          if(num1==num2){
+              return 1 
+            }else{ 
+             return -1 
+          } 
+        }               -->
+</body>
+</html>

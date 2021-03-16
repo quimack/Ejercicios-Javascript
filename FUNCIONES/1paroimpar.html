@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numero = prompt("Ingrese un número");
+
+        const parOimpar = (numeroIngresado) => {
+            if (numeroIngresado % 2 == 0){
+                return 0
+            }else{
+                return 1
+            }
+        }
+
+        if (parOimpar(numero) == 0){
+            alert ("El número ingresado es par");
+        }else{
+            alert ("El número ingresado es impar");
+        }
+        
+    </script>
+    
+</body>
+</html>

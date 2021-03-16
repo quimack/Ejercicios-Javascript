@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+5) Hacer la función "dia_de_la_semana" en donde debés pasarle un número
+del 1 al 7 y éste debe retornar el día de la semana. Por ej. Si le pasaste
+un 1 te devuelve "Lunes"; 2, "Martes"... 7, "domingo" -->
+
+    <script>
+        const numero_sem = prompt("Ingrese un numero del 1 al 7")
+        function dia_de_la_semana(num){
+            if(num==1){
+                return "Lunes"
+            }else if(num==2){
+                return "Martes"
+            }else if(num==3){
+                return "Miercoles"
+            }
+        }
+
+        alert(dia_de_la_semana(numero_sem));
+
+    </script>
+</body>
+</html>

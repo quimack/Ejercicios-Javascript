@@ -1,0 +1,23 @@
+
+*{
+    margin-top: 150px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* azul celeste verde amarillo rojo */
+
+.azul{
+    color: #2028FA;
+}
+.celeste{
+    color: #51CBF0;
+}
+.verde{
+    color: #1B7328;
+}
+.amarillo{
+    color: #E3D425;
+}
+.rojo{
+    color: #E3180B;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+1) Hacer una función "restar" en donde le pasaremos dos parámetros y nos 
+devolverá el resultado. Mostralo por console.log.     -->
+
+    <script>
+
+        const primerValor = prompt("Ingrese el primer valor");
+        const segundoValor = prompt("Ingrese el segundo valor");
+
+        function restar(num1, num2){
+            let resultado = num1 - num2;
+            return resultado
+        }
+        
+        console.log (restar(primerValor,segundoValor));
+        console.log (restar(8,5));
+        console.log (restar(10,9));
+    </script>
+</body>
+</html>
