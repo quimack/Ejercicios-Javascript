@@ -1,11 +1,9 @@
-
-// no me sale
-
 const capitalizar = (str) => {
    const primerLetra = str.slice(0,1);
-   const primerLetraMayuscula = primerLetra.toUpperCase;
-   str.replace(primerLetra, primerLetraMayuscula);
-   
+   const primerMayuscula = primerLetra.toUpperCase();
+   const palabraCapitalizada = str.replace(primerLetra, primerMayuscula);
+   return palabraCapitalizada;
 }
 
 console.log(capitalizar('macarena'));
+

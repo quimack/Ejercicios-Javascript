@@ -10,10 +10,14 @@ tienenMismaLongitud('manzana', 'cerveza') // true
 ```
 
 */
-
+/*
 const tienenMismaLongitud = (a, b) => {
     return a.length === b.length ;
 }
+AQUI ABAJO, EL EJERCICIO OPTIMIZADO!
+*/
+const tienenMismaLongitud = (a, b) => a.length === b.length;
+
 
 console.log(tienenMismaLongitud('palabra', 'carcaza'));
 console.log(tienenMismaLongitud('lluvia', 'caballo'));
